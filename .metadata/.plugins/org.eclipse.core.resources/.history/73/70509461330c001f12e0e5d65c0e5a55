@@ -1,0 +1,29 @@
+package oops_task;
+
+public class grades {
+
+	
+	String name;
+	int grade;
+	
+	
+	void print()
+	{
+		
+		 if (grade >= 90 && grade <=100) {
+	            System.out.println(name + " has an A grade.");
+	            
+	        } else if (grade >= 80 && grade<90 ) {
+	            System.out.println(name + " has a B grade.");
+	            
+	        } else if (grade >= 70 && grade <80) {
+	            System.out.println(name + " has a C grade.");
+	            
+	        } else if (grade >= 60 && grade <70) {
+	            System.out.println(name + " has a D grade.");
+	            
+	        } else {
+	            System.out.println(name + " has an F grade.");
+	        }
+	    }
+}

@@ -1,0 +1,23 @@
+package oops_task;
+
+public class grades1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+         grades c=new grades();
+         //student 1
+         c.name = "vijay";
+         c.grade = 60;
+         
+       c.print();  
+         // student 2 
+         
+         c.name="pandu";
+         c.grade=90;
+         
+       c.print();  
+	}
+
+}
